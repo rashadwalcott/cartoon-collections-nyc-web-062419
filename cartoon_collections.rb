@@ -21,10 +21,8 @@ end
 def find_the_cheese(cheddar_cheese)
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  array=[]
-    array.find do |cheese|
-     array << cheese == cheese_types
+   puts array.find do |cheese|
+     cheese == cheese_types
 end
-puts array
 end
 
