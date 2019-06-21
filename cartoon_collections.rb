@@ -9,7 +9,7 @@ end
 def summon_captain_planet(veggies)
   string=veggies.split(" ")
   array=[]
-  veggies.map do |veg|
+  string.map do |veg|
    array <<  veg.push("!")
   end
   array.join(" ")
