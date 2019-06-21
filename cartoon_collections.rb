@@ -7,11 +7,12 @@ puts  array
 end
 
 def summon_captain_planet(veggies)
-  string=veggies.split
+  string=veggies.split(" ")
   array=[]
   veggies.map do |veg|
-    veg.capitalize
+   array <<  veg.push("!")
   end
+  array.join(" ")
 end
 
 def long_planeteer_calls# code an argument here
