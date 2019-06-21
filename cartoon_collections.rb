@@ -23,7 +23,7 @@ def find_the_cheese(cheddar_cheese)
   array=[]
   cheese_types = ["cheddar", "gouda", "camembert"]
   cheddar_cheese.find do |cheese|
-    (cheese_types)
+    cheese.(cheese_types)
 end
 end
 
