@@ -13,6 +13,7 @@ def summon_captain_planet(veggies)
    array <<  veg.push("!")
   end
   array.join(" ")
+  array.capitalize
 end
 
 def long_planeteer_calls# code an argument here
