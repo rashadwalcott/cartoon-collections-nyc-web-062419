@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
   string = veggies.split(" ")
   array=[]
   veggies.collect do |veg|
-    veg.join("\!").capitalize
+    array << 
   end
 end
 
