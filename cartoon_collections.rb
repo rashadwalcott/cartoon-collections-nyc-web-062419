@@ -26,7 +26,7 @@ def find_the_cheese(cheddar_cheese)
     array << cheese == cheese_types
     
     cheddar_cheese.find do |cheese|
-      cheese.any
+      cheese.any?
 end
 puts array
 end
