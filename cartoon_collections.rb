@@ -7,8 +7,9 @@ puts  array
 end
 
 def summon_captain_planet(veggies)
+  array=[]
   veggies.map do |veg|
-    veg.capitalize
+    veg.capitalize.join("/n")
   end
 end
 
