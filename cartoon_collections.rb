@@ -7,7 +7,7 @@ puts  array
 end
 
 def summon_captain_planet(veggies)
-  = veggies.split(" ")
+  string= veggies.split(" ")
   veggies.map do |veg|
     veg.capitalize
   end
