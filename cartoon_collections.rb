@@ -8,7 +8,7 @@ end
 
 def summon_captain_planet(veggies)
   veggies.collect do |veg|
-    veg.
+    veg.capitalize
 end
 
 def long_planeteer_calls# code an argument here
