@@ -10,8 +10,9 @@ def summon_captain_planet(veggies)
   string= veggies.split(" ")
   array=[]
   array << string.map do |veg|
-    veg.
+    veg.capitalize
   end
+  
 end
 
 def long_planeteer_calls# code an argument here
